@@ -1,0 +1,45 @@
+#d1{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+#d2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#d3{
+    height: 350px;
+    width: 250px;
+    background-color: fuchsia;
+}
+#d4{
+    height: 550px;
+    width: 550px;
+    background-color:darkorange;
+    padding: 20px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+#d5{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.d6{
+    background-color: blue;
+    height: 150px;
+    width: 32%;
+    margin: 10px;
+}

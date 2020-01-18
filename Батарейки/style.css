@@ -1,0 +1,36 @@
+.q{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.qq{
+    height: 100px;
+    width: 290px;
+    border: 6px solid black;
+}
+
+.qqq{
+    height: 40px;
+    width: 10px;
+    background-color: black;
+}
+
+.color1{
+    height: 100%;
+    width: 30%;
+    background-color: red;
+}
+
+.color2{
+    height: 100%;
+    width: 65%;
+    background-color: yellow;
+}
+
+.color3{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}

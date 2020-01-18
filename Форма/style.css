@@ -1,0 +1,54 @@
+.parent{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.first{
+    height: 600px;
+    width: 35%;
+    background-color:steelblue;
+}
+.second{
+    height: 600px;
+    width: 65%;
+    padding-left: 25px;
+/*    padding-right: 15px;*/
+    
+}
+.third{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.one{
+    width: 50%;
+    height: auto;
+}
+
+#inp{
+    width: 95%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.two{
+    width: 100%;
+    height: auto;
+}
+
+#inp2{
+    width: 97%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#inp3{
+    width: 97.5%;
+    height: 50px;
+    border: 1px solid black;
+    background-color:darkgray;
+}
+

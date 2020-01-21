@@ -1,0 +1,114 @@
+*{
+    font-size: 25px;
+    text-align: center;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    border: 5px solid black;
+    margin-bottom: 18px;
+    line-height: 50px;
+}
+#body{
+    height: 838px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#con_1{
+    height: 500px;
+    width: 20%;
+    background-color: lightgrey;
+    border: 5px solid black;
+    line-height: 500px;
+}
+#con_2{
+    height: 300px;
+    width: 20%;
+    background-color:lightpink;
+    margin-top: 18px;
+    border: 5px solid black;
+    line-height: 300px;
+}
+#con_3{
+    height: 600px;
+    width: 78%;
+    background-color: whitesmoke;
+    margin-left: 18px;
+    border: 5px solid black;
+    line-height: 600px;
+}
+#con_4{
+    height: 200px;
+    width: 78%;
+    background-color:skyblue;
+    margin-left: 18px;
+    margin-top: 18px;
+    border: 5px solid black;
+    line-height: 200px;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    border: 5px solid black;
+    margin-top: 18px;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    #body{
+        height: 688px;
+    }
+    #con_1{
+        height: 400px;
+        width: 30%;
+        line-height: 400px;
+    }
+    #con_2{
+        height: 250px;
+        width: 30%;
+        line-height: 250px;
+    }
+    #con_3{
+        height: 450px;
+        width: 68%;
+        line-height: 450px;
+    }
+    #con_4{
+        width: 68%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    #body{
+        height: 1264px;
+        width: 100%;
+    }
+    #con_1{
+        height: 200px;
+        width: 100%;
+        line-height: 200px;
+    }
+    #con_2{
+        height: 170px;
+        width: 100%;
+        line-height: 170px;
+    }
+    #con_3{
+        height: 600px;
+        width: 100%;
+        line-height: 600px;
+        margin-left: 0px;
+        margin-top: 18px;
+    }
+    #con_4{
+        height: 200px;
+        width: 100%;
+        line-height: 200px;
+        margin-left: 0px;
+    }
+}
+
